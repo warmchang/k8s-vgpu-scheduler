@@ -5,7 +5,7 @@ go 1.21
 require (
 	github.com/NVIDIA/go-gpuallocator v0.3.1
 	github.com/NVIDIA/go-nvlib v0.0.0-20240109130712-11603560817a
-	github.com/NVIDIA/go-nvml v0.12.0-2
+	github.com/NVIDIA/go-nvml v0.12.0-3
 	github.com/NVIDIA/k8s-device-plugin v0.14.5
 	github.com/NVIDIA/nvidia-container-toolkit v1.14.7-0.20240229083338-37b1e37c8f2f
 	github.com/container-orchestrated-devices/container-device-interface v0.5.4-0.20230111111500-5b3b5d81179a
@@ -15,13 +15,13 @@ require (
 	github.com/opencontainers/runtime-spec v1.2.0
 	github.com/prometheus/client_golang v1.16.0
 	github.com/sirupsen/logrus v1.9.3
-	github.com/spf13/cobra v1.7.0
+	github.com/spf13/cobra v1.8.1
 	github.com/stretchr/testify v1.9.0
 	github.com/urfave/cli/v2 v2.27.1
 	golang.org/x/exp v0.0.0-20220827204233-334a2380cb91
-	golang.org/x/net v0.22.0
-	golang.org/x/term v0.18.0
-	golang.org/x/tools v0.16.1
+	golang.org/x/net v0.26.0
+	golang.org/x/term v0.21.0
+	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d
 	google.golang.org/grpc v1.59.0
 	google.golang.org/protobuf v1.33.0
 	gotest.tools/v3 v3.5.1
@@ -38,7 +38,7 @@ require (
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
 	github.com/evanphx/json-patch v5.6.0+incompatible // indirect
@@ -73,10 +73,10 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
-	golang.org/x/mod v0.15.0 // indirect
+	golang.org/x/mod v0.17.0 // indirect
 	golang.org/x/oauth2 v0.11.0 // indirect
-	golang.org/x/sys v0.18.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/sys v0.21.0 // indirect
+	golang.org/x/text v0.16.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.4.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
